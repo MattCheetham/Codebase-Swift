@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2AD378C280B62188EB51E29779A5A75B7E51AC6F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2AD378C280B62188EB51E29779A5A75B7E51AC6F" : 0,
+    "50F42E002B0F19516CFE39DD94652B74AEED148B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF3A0EB0-D4F5-4F8B-8AA5-BA6EB5CAC2C5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2AD378C280B62188EB51E29779A5A75B7E51AC6F" : "CodebaseKit\/",
+    "50F42E002B0F19516CFE39DD94652B74AEED148B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CodebaseKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CodebaseKit\/CodebaseKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MattCheetham\/Codebase-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2AD378C280B62188EB51E29779A5A75B7E51AC6F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "codebasehq.com:3sidedcube\/untitled-status-board\/tvos-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "50F42E002B0F19516CFE39DD94652B74AEED148B"
+    }
+  ]
+}
