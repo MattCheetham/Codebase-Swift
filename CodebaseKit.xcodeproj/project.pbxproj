@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		491132971BF60FB1007048D4 /* CodebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491132961BF60FB1007048D4 /* CodebaseController.swift */; };
+		491132A21BF659EB007048D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491132A11BF659EB007048D4 /* Event.swift */; };
 		492FBF2B1BF5EBDD0024E007 /* CodebaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		491132841BF60539007048D4 /* ThunderRequest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThunderRequest.xcodeproj; path = ThunderRequest/ThunderRequest.xcodeproj; sourceTree = SOURCE_ROOT; };
 		491132961BF60FB1007048D4 /* CodebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodebaseController.swift; sourceTree = "<group>"; };
+		491132A11BF659EB007048D4 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		492FBF271BF5EBDD0024E007 /* CodebaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodebaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodebaseKit.h; sourceTree = "<group>"; };
 		492FBF2C1BF5EBDD0024E007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,10 +85,11 @@
 		492FBF291BF5EBDD0024E007 /* CodebaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				491132841BF60539007048D4 /* ThunderRequest.xcodeproj */,
 				492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */,
-				492FBF2C1BF5EBDD0024E007 /* Info.plist */,
 				491132961BF60FB1007048D4 /* CodebaseController.swift */,
+				491132A11BF659EB007048D4 /* Event.swift */,
+				491132841BF60539007048D4 /* ThunderRequest.xcodeproj */,
+				492FBF2C1BF5EBDD0024E007 /* Info.plist */,
 			);
 			path = CodebaseKit;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491132A21BF659EB007048D4 /* Event.swift in Sources */,
 				491132971BF60FB1007048D4 /* CodebaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
