@@ -7,10 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491132971BF60FB1007048D4 /* CodebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491132961BF60FB1007048D4 /* CodebaseController.swift */; };
 		492FBF2B1BF5EBDD0024E007 /* CodebaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4911328A1BF60539007048D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491132841BF60539007048D4 /* ThunderRequest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2E5088219C835A300350F00;
+			remoteInfo = ThunderRequest;
+		};
+		4911328C1BF60539007048D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491132841BF60539007048D4 /* ThunderRequest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2E5088D19C835A300350F00;
+			remoteInfo = ThunderRequestTests;
+		};
+		4911328E1BF60539007048D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491132841BF60539007048D4 /* ThunderRequest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 49084FD11BD13DBD0012F636;
+			remoteInfo = ThunderRequestTV;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		491132841BF60539007048D4 /* ThunderRequest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThunderRequest.xcodeproj; path = ThunderRequest/ThunderRequest.xcodeproj; sourceTree = SOURCE_ROOT; };
+		491132961BF60FB1007048D4 /* CodebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodebaseController.swift; sourceTree = "<group>"; };
 		492FBF271BF5EBDD0024E007 /* CodebaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodebaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodebaseKit.h; sourceTree = "<group>"; };
 		492FBF2C1BF5EBDD0024E007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491132851BF60539007048D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4911328B1BF60539007048D4 /* ThunderRequest.framework */,
+				4911328D1BF60539007048D4 /* ThunderRequestTests.xctest */,
+				4911328F1BF60539007048D4 /* ThunderRequestTV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		492FBF1D1BF5EBDD0024E007 = {
 			isa = PBXGroup;
 			children = (
@@ -46,8 +83,10 @@
 		492FBF291BF5EBDD0024E007 /* CodebaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				491132841BF60539007048D4 /* ThunderRequest.xcodeproj */,
 				492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */,
 				492FBF2C1BF5EBDD0024E007 /* Info.plist */,
+				491132961BF60FB1007048D4 /* CodebaseController.swift */,
 			);
 			path = CodebaseKit;
 			sourceTree = "<group>";
@@ -108,12 +147,42 @@
 			mainGroup = 492FBF1D1BF5EBDD0024E007;
 			productRefGroup = 492FBF281BF5EBDD0024E007 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 491132851BF60539007048D4 /* Products */;
+					ProjectRef = 491132841BF60539007048D4 /* ThunderRequest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				492FBF261BF5EBDD0024E007 /* CodebaseKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4911328B1BF60539007048D4 /* ThunderRequest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ThunderRequest.framework;
+			remoteRef = 4911328A1BF60539007048D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4911328D1BF60539007048D4 /* ThunderRequestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ThunderRequestTests.xctest;
+			remoteRef = 4911328C1BF60539007048D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4911328F1BF60539007048D4 /* ThunderRequestTV.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ThunderRequestTV.framework;
+			remoteRef = 4911328E1BF60539007048D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		492FBF251BF5EBDD0024E007 /* Resources */ = {
@@ -130,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491132971BF60FB1007048D4 /* CodebaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +296,8 @@
 		492FBF301BF5EBDD0024E007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -236,12 +308,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.mattcheetham.CodebaseKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		492FBF311BF5EBDD0024E007 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -274,6 +349,7 @@
 				492FBF311BF5EBDD0024E007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
