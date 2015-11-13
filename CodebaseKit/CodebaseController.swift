@@ -28,7 +28,7 @@ public class CodeBaseController {
     */
     public func getActivity(completionHandler: (activities: [Event]?, requestError: NSError?) -> ()) {
         
-        requestController.get("activity") { (response: TSCRequestResponse?, requestError: NSError?) -> Void in
+        requestController.get("activity?raw=true") { (response: TSCRequestResponse?, requestError: NSError?) -> Void in
             
             if let error = requestError {
                 completionHandler(activities: nil, requestError: error)

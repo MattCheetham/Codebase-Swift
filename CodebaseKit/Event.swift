@@ -66,6 +66,11 @@ public struct Event {
     */
     public var authorGravatarURL: NSURL?
     
+    /**
+    The name of the project the event is related too where available
+    */
+    public var projectName: String?
+    
     internal init(dictionary: [String: AnyObject]) {
         
         guard let eventDictionary = dictionary["event"] as? [String: AnyObject] else {
@@ -74,6 +79,23 @@ public struct Event {
         }
         
         identifier = eventDictionary["id"] as? Int
+        title = eventDictionary["title"] as? String
+        
+        if let eventTypeString = eventDictionary["type"] as? String {
+            type = EventType(rawValue: eventTypeString)
+        }
+        
+        authorName = eventDictionary["actor_name"] as? String
+        
+        if let gravatarURLString = eventDictionary["avatar_url"] as? String {
+            authorGravatarURL = NSURL(string: gravatarURLString)
+        }
+        
+        if let rawInfoDictionary = eventDictionary["raw_properties"] as? [String: AnyObject] {
+            
+            projectName = rawInfoDictionary["project_name"] as? String
+            
+        }
         
     }
 
