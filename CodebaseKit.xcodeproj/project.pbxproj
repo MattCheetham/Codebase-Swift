@@ -10,6 +10,7 @@
 		491132971BF60FB1007048D4 /* CodebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491132961BF60FB1007048D4 /* CodebaseController.swift */; };
 		491132A21BF659EB007048D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491132A11BF659EB007048D4 /* Event.swift */; };
 		492FBF2B1BF5EBDD0024E007 /* CodebaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 492FBF2A1BF5EBDD0024E007 /* CodebaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D924CE1BFB16A700F7E0C2 /* ThunderRequestTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4911328F1BF60539007048D4 /* ThunderRequestTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D924CE1BFB16A700F7E0C2 /* ThunderRequestTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
