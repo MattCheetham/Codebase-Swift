@@ -11,7 +11,7 @@ import Foundation
 /**
 An event is an entry recieved when quering activity from a codebase account. Each activity can relate to a varying number of things such as a commit, a ticket update or even exceptions raised
 */
-public struct Event {
+public struct Event: Equatable {
     
     /**
     An enum to define types of events that come from the activity feed
@@ -98,6 +98,11 @@ public struct Event {
         }
         
     }
-
     
+}
+
+//MARK: - Equatable
+
+public func ==(lhs: Event, rhs: Event) -> Bool {
+    return lhs.identifier == rhs.identifier
 }
